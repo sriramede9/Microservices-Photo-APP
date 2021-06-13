@@ -1,0 +1,5 @@
+package com.sri.photoapp.controller;
+
+public class AccountController {
+
+}

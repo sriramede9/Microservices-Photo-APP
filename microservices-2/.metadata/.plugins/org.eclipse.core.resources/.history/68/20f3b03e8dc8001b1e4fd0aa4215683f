@@ -1,0 +1,13 @@
+package com.sri.photoapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PhotAppZuulApiGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PhotAppZuulApiGatewayApplication.class, args);
+	}
+
+}

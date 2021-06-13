@@ -1,0 +1,27 @@
+server.port=${PORT:0}
+
+spring.application.name=user-ws
+eureka.client.service-url.default-zone=http://localhost:8761/eureka/
+management.endpoints.web.exposure.include=*
+
+# Provide Unique instance id as we are using random port to generate ports
+
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+#mvn spring-boot:run -Dspring-boot.run.arguments=--spring.application.instance_id=sriram
+#mvn spring-boot:run -Dspring-boot.run.arguments=--spring.application.instance_id=sriram,--server.port=8999
+
+# H2 - Details
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enabled=true
+
+spring.h2.console.settings.web-allow-others=true
+
+## Spring Security config
+

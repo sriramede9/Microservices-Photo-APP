@@ -1,0 +1,6 @@
+package com.sri.photoapp.feignproxy;
+
+
+public interface FeignProxy {
+
+}

@@ -1,0 +1,5 @@
+package com.sri.photoapp.feignproxy;
+
+public class FeignErrorDecoder {
+
+}

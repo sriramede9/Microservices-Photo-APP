@@ -1,0 +1,28 @@
+
+spring.application.name=spring-cloud-config-server
+
+server.port=8012
+
+spring.cloud.config.server.git.uri: https://github.com/sriramede9/PhotoAppConfig
+
+spring.cloud.config.server.git.username=sriramede
+spring.cloud.config.server.git.password=Maruthibnr4
+spring.cloud.config.server.git.clone-on-start=true
+
+management.endpoints.web.exposure.include=*
+
+#spring.profiles.active=git
+
+spring.profiles.active=native
+
+spring.cloud.config.server.git.default-label=main
+
+spring.cloud.bus.enabled=true
+
+# rabbit mq
+
+
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest

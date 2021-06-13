@@ -1,0 +1,8 @@
+package com.sri.photoapp.feignproxy;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "ALBUMS-WS")
+public interface FeignProxy {
+
+}

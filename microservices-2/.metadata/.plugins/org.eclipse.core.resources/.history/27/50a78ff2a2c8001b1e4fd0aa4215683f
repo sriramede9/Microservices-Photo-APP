@@ -1,0 +1,20 @@
+package com.sri.photoapp.ui.controllers;
+
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.sri.photoapp.ui.controllers.model.UserEntity;
+import com.sri.photoapp.ui.controllers.model.UserModel;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserModel createUser(UserEntity userEntity) {
+
+		userEntity.setUserId(UUID.randomUUID().toString());
+		return null;
+	}
+
+}

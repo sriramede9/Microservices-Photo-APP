@@ -1,0 +1,4 @@
+server.port=8020
+
+spring.application.name=user-ws
+eureka.client.service-url.default-zone=http://localhost:8010/eureka

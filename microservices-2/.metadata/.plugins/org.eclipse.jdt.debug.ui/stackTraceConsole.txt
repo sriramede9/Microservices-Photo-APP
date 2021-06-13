@@ -1,0 +1,1 @@
+feign.FeignException$NotFound: [404] during [GET] to [http://ALBUMS-WS/users/3b98c1af-f166-4204-8d38-5ba0c3d0ef97/albumss] [FeignProxy#userAlbums(String)]: [{\"timestamp\":\"2021-06-13T15:16:59.688+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/users/3b98c1af-f166-4204-8d38-5ba0c3d0ef97/albumss\"}]\r\n\tat feign.FeignException

@@ -1,0 +1,16 @@
+package com.sri.photoapp.ui.controllers;
+
+import org.springframework.stereotype.Service;
+
+import com.sri.photoapp.ui.controllers.model.UserModel;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserModel createUser(UserModel userDetails) {
+		
+		return null;
+	}
+
+}

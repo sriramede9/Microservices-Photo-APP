@@ -1,0 +1,308 @@
+2021-06-13 14:41:17.681  INFO [user-ws,,,] 2616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2021-06-13 14:41:18.156  INFO [user-ws,,,] 2616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[default], label=null, version=null, state=null
+2021-06-13 14:41:18.160  INFO [user-ws,,,] 2616 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/SriRamEde/Desktop/api-config/user-ws.properties'}]
+2021-06-13 14:41:18.301  INFO [user-ws,,,] 2616 --- [restartedMain] c.s.p.PhotoAppApiUsersApplication        : The following profiles are active: dev
+2021-06-13 14:41:20.528  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2021-06-13 14:41:20.978  INFO [user-ws,,,] 2616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-13 14:41:21.291  INFO [user-ws,,,] 2616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 300ms. Found 1 JPA repository interfaces.
+2021-06-13 14:41:21.442  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2021-06-13 14:41:21.605  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-06-13 14:41:21.831  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-06-13 14:41:22.432  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9139f0da-1ef4-3fc0-941c-453509204066
+2021-06-13 14:41:22.500  INFO [user-ws,,,] 2616 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-06-13 14:41:22.511  INFO [user-ws,,,] 2616 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2021-06-13 14:41:22.520  INFO [user-ws,,,] 2616 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-06-13 14:41:23.290  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:23.301  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:23.362  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$55f891ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:23.395  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:23.415  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:23.500  INFO [user-ws,,,] 2616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-13 14:41:24.993  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-06-13 14:41:25.018  INFO [user-ws,,,] 2616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-13 14:41:25.019  INFO [user-ws,,,] 2616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-13 14:41:25.353  INFO [user-ws,,,] 2616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-13 14:41:25.354  INFO [user-ws,,,] 2616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6966 ms
+2021-06-13 14:41:25.698  WARN [user-ws,,,] 2616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-13 14:41:25.699  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-13 14:41:25.721  INFO [user-ws,,,] 2616 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@36d37c64
+2021-06-13 14:41:25.936  INFO [user-ws,,,] 2616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-13 14:41:26.298  INFO [user-ws,,,] 2616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-13 14:41:26.315  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-06-13 14:41:29.908  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-06-13 14:41:30.603  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2021-06-13 14:41:30.889  INFO [user-ws,,,] 2616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-13 14:41:31.007  INFO [user-ws,,,] 2616 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-13 14:41:31.281  INFO [user-ws,,,] 2616 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-13 14:41:31.529  INFO [user-ws,,,] 2616 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-13 14:41:32.774  INFO [user-ws,,,] 2616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-13 14:41:32.794  INFO [user-ws,,,] 2616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-13 14:41:32.878  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-06-13 14:41:33.221  WARN [user-ws,,,] 2616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-13 14:41:35.497  WARN [user-ws,,,] 2616 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : The provided URL is empty. Will try picking an instance via load-balancing.
+2021-06-13 14:41:36.441  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c4714d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@364e79d3, org.springframework.security.web.header.HeaderWriterFilter@16072ef9, org.springframework.security.web.authentication.logout.LogoutFilter@67a2be6c, com.sri.photoapp.security.AuthenticationFilter@45b236fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@410eedd6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7409a94e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5041bdc7, org.springframework.security.web.session.SessionManagementFilter@610bb08c, org.springframework.security.web.access.ExceptionTranslationFilter@38b85968, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47434c7d]
+2021-06-13 14:41:36.544  WARN [user-ws,,,] 2616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-13 14:41:36.545  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-13 14:41:36.968  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-13 14:41:38.161  INFO [user-ws,,,] 2616 --- [restartedMain] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2021-06-13 14:41:38.778  INFO [user-ws,,,] 2616 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-06-13 14:41:39.106  WARN [user-ws,,,] 2616 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-06-13 14:41:39.871  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 24 endpoint(s) beneath base path '/actuator'
+2021-06-13 14:41:40.233  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'user-ws-1.springCloudBusInput' has 1 subscriber(s).
+2021-06-13 14:41:40.304  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-06-13 14:41:40.305  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'user-ws-1.errorChannel' has 1 subscriber(s).
+2021-06-13 14:41:40.306  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-06-13 14:41:40.312  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-06-13 14:41:40.628  INFO [user-ws,,,] 2616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2021-06-13 14:41:40.964  INFO [user-ws,,,] 2616 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[default], label=null, version=null, state=null
+2021-06-13 14:41:40.964  INFO [user-ws,,,] 2616 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/SriRamEde/Desktop/api-config/user-ws.properties'}]
+2021-06-13 14:41:41.490  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-06-13 14:41:41.490  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-06-13 14:41:41.750  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-06-13 14:41:41.882  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#20059930:0/SimpleConnection@6ce27d5a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52707]
+2021-06-13 14:41:41.979  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'user-ws-1.springCloudBusOutput' has 1 subscriber(s).
+2021-06-13 14:41:42.022  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-06-13 14:41:42.169  INFO [user-ws,,,] 2616 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.98hRarSLTOSp1JhC0_MGZg, bound to: springCloudBus
+2021-06-13 14:41:42.298  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.98hRarSLTOSp1JhC0_MGZg.errors' has 1 subscriber(s).
+2021-06-13 14:41:42.300  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.98hRarSLTOSp1JhC0_MGZg.errors' has 2 subscriber(s).
+2021-06-13 14:41:42.411  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.98hRarSLTOSp1JhC0_MGZg'
+2021-06-13 14:41:42.463  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52708 (http) with context path ''
+2021-06-13 14:41:42.465  INFO [user-ws,,,] 2616 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 52708
+2021-06-13 14:41:42.475  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-13 14:41:42.567  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-13 14:41:42.707  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-13 14:41:42.707  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-13 14:41:43.040  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-13 14:41:43.041  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-13 14:41:43.848  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 14:41:43.912  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-13 14:41:43.913  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-13 14:41:43.913  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-13 14:41:43.913  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-13 14:41:43.914  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-13 14:41:43.914  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-13 14:41:43.914  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-13 14:41:44.140  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-13 14:41:44.151  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-06-13 14:41:44.164  INFO [user-ws,,,] 2616 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-13 14:41:44.173  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1623609704171 with initial instances count: 4
+2021-06-13 14:41:44.194  INFO [user-ws,,,] 2616 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-WS with eureka with status UP
+2021-06-13 14:41:44.195  INFO [user-ws,,,] 2616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1623609704195, current=UP, previous=STARTING]
+2021-06-13 14:41:44.200  INFO [user-ws,,,] 2616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:6f4a001650f255190ff19670806f34b5: registering service...
+2021-06-13 14:41:44.251  INFO [user-ws,,,] 2616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:6f4a001650f255190ff19670806f34b5 - registration status: 204
+2021-06-13 14:41:44.715  INFO [user-ws,,,] 2616 --- [restartedMain] c.s.p.PhotoAppApiUsersApplication        : Started PhotoAppApiUsersApplication in 29.039 seconds (JVM running for 30.53)
+2021-06-13 14:42:26.284  INFO [user-ws,,,] 2616 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-13 14:42:26.286  INFO [user-ws,,,] 2616 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-13 14:42:26.341  INFO [user-ws,,,] 2616 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 55 ms
+2021-06-13 14:42:35.033  WARN [user-ws,256a6deab577a1bd,84f0f5bf90bf1dcb,true] 2616 --- [http-nio-auto-1-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-06-13 14:42:35.033 ERROR [user-ws,256a6deab577a1bd,84f0f5bf90bf1dcb,true] 2616 --- [http-nio-auto-1-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (email, encrypted_password, first_name, last_name, user_id, id) values (?, ?, ?, ?, ?, ?) [23505-200]
+2021-06-13 14:42:35.077 ERROR [user-ws,,,] 2616 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (email, encrypted_password, first_name, last_name, user_id, id) values (?, ?, ?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (email, encrypted_password, first_name, last_name, user_id, id) values (?, ?, ?, ?, ?, ?) [23505-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:221) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:531) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:195) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.update(Insert.java:151) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3297) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3824) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:345) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.31.Final.jar:5.4.31.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534) ~[spring-orm-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:633) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) ~[spring-data-jpa-2.3.9.RELEASE.jar:2.3.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at com.sun.proxy.$Proxy200.save(Unknown Source) ~[na:na]
+	at com.sri.photoapp.ui.controllers.UserServiceImpl.createUser(UserServiceImpl.java:29) ~[classes/:na]
+	at com.sri.photoapp.ui.controllers.UsersController.createUser(UsersController.java:79) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[brave-instrumentation-servlet-5.12.7.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.9.RELEASE.jar:5.3.9.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:87) ~[brave-instrumentation-servlet-5.12.7.jar:na]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:141) ~[spring-cloud-sleuth-core-2.2.8.RELEASE.jar:2.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97) ~[spring-boot-actuator-2.3.11.RELEASE.jar:2.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.15.RELEASE.jar:5.2.15.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-06-13 14:43:29.462 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> GET http://ALBUMS-WS/users/42702257-0bc7-4805-83d5-1f3e6a904895/albums HTTP/1.1
+2021-06-13 14:43:29.463 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] Accept: application/json
+2021-06-13 14:43:29.463 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> END HTTP (0-byte body)
+2021-06-13 14:43:29.871  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: ALBUMS-WS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-06-13 14:43:29.939  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-ALBUMS-WS
+2021-06-13 14:43:29.940  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: ALBUMS-WS instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ALBUMS-WS,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-06-13 14:43:29.960  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2021-06-13 14:43:30.024  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: ALBUMS-WS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-06-13 14:43:30.028  INFO [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client ALBUMS-WS initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ALBUMS-WS,current list of Servers=[host.docker.internal:52021],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:host.docker.internal:52021;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Wed Dec 31 19:00:00 EST 1969;	First connection made: Wed Dec 31 19:00:00 EST 1969;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7f4d5b0b
+2021-06-13 14:43:30.781 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- HTTP/1.1 200 (1316ms)
+2021-06-13 14:43:30.782 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] connection: keep-alive
+2021-06-13 14:43:30.783 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] content-type: application/json
+2021-06-13 14:43:30.784 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] date: Sun, 13 Jun 2021 18:43:30 GMT
+2021-06-13 14:43:30.785 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] keep-alive: timeout=60
+2021-06-13 14:43:30.785 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] transfer-encoding: chunked
+2021-06-13 14:43:30.786 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] 
+2021-06-13 14:43:30.820 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] [{"albumId":"album1Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 2 name","description":"album 2 description"}]
+2021-06-13 14:43:30.821 DEBUG [user-ws,30efb4d6866bf146,01ba2d28f74c4bb8,true] 2616 --- [hystrix-ALBUMS-WS-1] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- END HTTP (259-byte body)
+2021-06-13 14:43:30.967  INFO [user-ws,,,] 2616 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: ALBUMS-WS.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-06-13 14:43:31.378 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> GET http://ALBUMS-WS/users/42702257-0bc7-4805-83d5-1f3e6a904895/albums HTTP/1.1
+2021-06-13 14:43:31.379 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] Accept: application/json
+2021-06-13 14:43:31.379 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> END HTTP (0-byte body)
+2021-06-13 14:43:31.393 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- HTTP/1.1 200 (12ms)
+2021-06-13 14:43:31.394 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] connection: keep-alive
+2021-06-13 14:43:31.394 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] content-type: application/json
+2021-06-13 14:43:31.394 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] date: Sun, 13 Jun 2021 18:43:30 GMT
+2021-06-13 14:43:31.394 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] keep-alive: timeout=60
+2021-06-13 14:43:31.394 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] transfer-encoding: chunked
+2021-06-13 14:43:31.395 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] 
+2021-06-13 14:43:31.396 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] [{"albumId":"album1Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 2 name","description":"album 2 description"}]
+2021-06-13 14:43:31.396 DEBUG [user-ws,354bc7dcacb8c13e,57b384fedcb0538e,true] 2616 --- [hystrix-ALBUMS-WS-2] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- END HTTP (259-byte body)
+2021-06-13 14:46:43.924  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 14:51:43.938  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 14:56:43.953  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:01:43.957  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:06:43.971  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:21:55.624  WARN [user-ws,,,] 2616 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m58s862ms731µs700ns).
+2021-06-13 15:26:12.837  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:31:12.847  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:36:12.855  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:39:00.033 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> GET http://ALBUMS-WS/users/42702257-0bc7-4805-83d5-1f3e6a904895/albums HTTP/1.1
+2021-06-13 15:39:00.034 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] Accept: application/json
+2021-06-13 15:39:00.035 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] ---> END HTTP (0-byte body)
+2021-06-13 15:39:00.059 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- HTTP/1.1 200 (23ms)
+2021-06-13 15:39:00.060 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] connection: keep-alive
+2021-06-13 15:39:00.060 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] content-type: application/json
+2021-06-13 15:39:00.060 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] date: Sun, 13 Jun 2021 19:39:00 GMT
+2021-06-13 15:39:00.061 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] keep-alive: timeout=60
+2021-06-13 15:39:00.061 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] transfer-encoding: chunked
+2021-06-13 15:39:00.061 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] 
+2021-06-13 15:39:00.062 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] [{"albumId":"album1Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"42702257-0bc7-4805-83d5-1f3e6a904895","name":"album 2 name","description":"album 2 description"}]
+2021-06-13 15:39:00.062 DEBUG [user-ws,f7c90d42ba352e0a,d668879bc9d423cd,true] 2616 --- [hystrix-ALBUMS-WS-3] com.sri.photoapp.feignproxy.FeignProxy   : [FeignProxy#userAlbums] <--- END HTTP (259-byte body)
+2021-06-13 15:41:12.869  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-13 15:46:12.876  INFO [user-ws,,,] 2616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

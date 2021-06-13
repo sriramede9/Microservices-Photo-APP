@@ -1,0 +1,5 @@
+package com.sri.photoapp.ui.controllers.model;
+
+public class UserModel {
+
+}

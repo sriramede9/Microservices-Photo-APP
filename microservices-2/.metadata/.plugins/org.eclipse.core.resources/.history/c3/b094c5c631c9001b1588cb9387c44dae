@@ -1,0 +1,28 @@
+package com.sri.photoapp.ui.controllers;
+
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sri.photoapp.ui.controllers.model.UserEntity;
+import com.sri.photoapp.ui.controllers.model.UserModel;
+import com.sri.photoapp.ui.controllers.model.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	@Override
+	public UserEntity createUser(UserEntity userEntity) {
+
+		userEntity.setUserId(UUID.randomUUID().toString());
+//		userEntity.setEncryptedPassword(UUID.randomUUID().toString());
+
+		UserEntity save = userRepository.save(userEntity);
+		return save;
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.sri.photoapp.ui.controllers.model;
+
+public class LoginRequestModel {
+
+	private String email;
+	private String password;
+}

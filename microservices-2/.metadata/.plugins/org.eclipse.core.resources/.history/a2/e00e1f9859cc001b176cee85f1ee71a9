@@ -1,0 +1,19 @@
+package com.sri.photoapp.feignproxy;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.sri.photoapp.ui.model.AlbumResponseModel;
+
+@FeignClient(name = "ALBUMS-WS")
+public interface FeignProxy {
+
+	@GetMapping(produces = { MediaType.APPLICATION_JSON_VALUE
+//	                MediaType.APPLICATION_XML_VALUE,
+	},path = "/users/{id}/albums")
+	public List<AlbumResponseModel> userAlbums(@PathVariable String id);
+}

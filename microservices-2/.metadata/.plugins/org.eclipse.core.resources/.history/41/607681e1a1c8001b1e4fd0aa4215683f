@@ -1,0 +1,13 @@
+package com.sri.photoapp.ui.controllers;
+
+import com.sri.photoapp.ui.controllers.model.UserModel;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserModel createUser(UserModel userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

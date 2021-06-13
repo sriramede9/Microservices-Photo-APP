@@ -1,0 +1,12 @@
+package com.sri.photoapp.ui.controllers.model;
+
+import java.io.Serializable;
+
+public class UserEntity implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8302044341924535090L;
+
+}
